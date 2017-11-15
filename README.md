@@ -17,9 +17,8 @@ Os seguintes conversores são suportados:
 Build
 -----
 
-After cloning the repository run `npm install` to download the dependencies and compile the project.
-Obviously [Node.js] is required for this.
-
+Após a clonagem, o repositório execute `npm install` para baixar as dependências e compilar o projeto.
+Obviamente [Node.js] é necessário para isso.
 
 Development
 -----------
