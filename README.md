@@ -6,12 +6,12 @@ Os seguintes conversores são suportados:
 
 * [Atbash cipher]
 * [Caesar cipher] (Com cracking de rotação automática)
-* [Keyword cipher] (Com cracking de rotation automática)
+* [Keyword cipher] (Com cracking de rotação automática)
 * [Morse code]
 * [Number-to-ASCII]
 * Reverse text
 * [Roman numerals]
-* [VigenÃ¨re cipher]
+* [Vigenère cipher]
 
 
 Build
