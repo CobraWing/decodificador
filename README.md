@@ -1,12 +1,12 @@
-Canonn Decryptor
+Cobra Winf Decifrador
 ================
 
-The [Canonn Decryptor] is a tool for decrypting the mysteries of the [Elite: Dangerous] universe. Currently the
-following converters are supported:
+O [Canonn Decryptor] é uma ferramenta para descriptografar os mistérios do universo [Elite: Dangerous] Atualmente, o
+Os seguintes conversores são suportados:
 
 * [Atbash cipher]
-* [Caesar cipher] (With automatic rotation cracking)
-* [Keyword cipher] (With automatic keyword cracking)
+* [Caesar cipher] (Com quebra de rotação automática)
+* [Keyword cipher] (Com quebra por palavras-chave automáticas)
 * [Morse code]
 * [Number-to-ASCII]
 * Reverse text
