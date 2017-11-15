@@ -11,7 +11,7 @@ Os seguintes conversores são suportados:
 * [Number-to-ASCII]
 * Reverse text
 * [Roman numerals]
-* [Vigenère cipher]
+* [VigenÃ¨re cipher]
 
 
 Build
