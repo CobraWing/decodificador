@@ -1,5 +1,5 @@
 <header>
-  <input #projectNameInput type="text" [(ngModel)]="projectName" no-update-on-edit placeholder="Unnamed project"
+  <input #projectNameInput type="text" [(ngModel)]="projectName" no-update-on-edit placeholder="Projeto sem nome"
          (keydown.enter)="save() && $event.target.blur()" />
   <nav>
     <button class="save" [disabled]="saved" (click)="save()">Salvar</button>
