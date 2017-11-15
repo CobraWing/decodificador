@@ -1,12 +1,12 @@
-Cobra Wing Decifrador
+Canonn Decryptor
 ================
 
-O [Canonn Decryptor] é uma ferramenta para desencriptar os mistérios do universo [Elite: Dangerous]. Atualmente, o
-Os seguintes conversores são suportados:
+The [Canonn Decryptor] is a tool for decrypting the mysteries of the [Elite: Dangerous] universe. Currently the
+following converters are supported:
 
 * [Atbash cipher]
-* [Caesar cipher] (Com cracking de rotação automática)
-* [Keyword cipher] (Com cracking de rotação automática)
+* [Caesar cipher] (With automatic rotation cracking)
+* [Keyword cipher] (With automatic keyword cracking)
 * [Morse code]
 * [Number-to-ASCII]
 * Reverse text
@@ -17,8 +17,9 @@ Os seguintes conversores são suportados:
 Build
 -----
 
-Após a clonagem, o repositório execute `npm install` para baixar as dependências e compilar o projeto.
-Obviamente [Node.js] é necessário para isso.
+After cloning the repository run `npm install` to download the dependencies and compile the project.
+Obviously [Node.js] is required for this.
+
 
 Development
 -----------
@@ -55,8 +56,8 @@ Links
 
 * [Canonn Research Group](http://canonn.science/)
 
-[Canonn Decryptor] : https://kayahr.github.io/canonn-decryptor/
-[Cobra Wing Decifrador]: https://cobrawing.github.io/decifrador/
+
+[Canonn Decryptor]: https://kayahr.github.io/canonn-decryptor/
 [Elite: Dangerous]: https://www.elitedangerous.com/
 [Atbash cipher]: https://en.wikipedia.org/wiki/Atbash
 [Caesar cipher]: https://en.wikipedia.org/wiki/Caesar_cipher
@@ -64,7 +65,7 @@ Links
 [Morse code]: https://en.wikipedia.org/wiki/Morse_code
 [Number-to-ASCII]: https://en.wikipedia.org/wiki/ASCII
 [Roman numerals]: https://en.wikipedia.org/wiki/Roman_numerals
-[Vigenère cipher]: https://en.wikipedia.org/wiki/VigenÃ¨re_cipher
+[Vigenère cipher]: https://en.wikipedia.org/wiki/Vigenère_cipher
 [Node.js]: https://nodejs.org/
 [SystemJS]: https://github.com/systemjs/systemjs
 [Visual Studio Code]: https://code.visualstudio.com/
