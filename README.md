@@ -1,17 +1,17 @@
-Canonn Decryptor
+Cobra Wing Decifrador
 ================
 
-The [Canonn Decryptor] is a tool for decrypting the mysteries of the [Elite: Dangerous] universe. Currently the
-following converters are supported:
+O [Cobra Wing Decifrador] é uma ferramenta para desencriptar os mistérios do universo [Elite: Dangerous]. Atualmente, o
+Os seguintes conversores são suportados:
 
 * [Atbash cipher]
-* [Caesar cipher] (With automatic rotation cracking)
-* [Keyword cipher] (With automatic keyword cracking)
+* [Caesar cipher] (Com cracking de rotação automática)
+* [Keyword cipher] (Com cracking de rotation automática)
 * [Morse code]
 * [Number-to-ASCII]
 * Reverse text
 * [Roman numerals]
-* [VigenÃ¨re cipher]
+* [Vigenère cipher]
 
 
 Build
