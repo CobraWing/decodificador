@@ -1,24 +1,24 @@
 Cobra Wing Decifrador
 ================
 
-O [Cobra Wing Decifrador] È uma ferramenta para desencriptar os mistÈrios do universo [Elite: Dangerous]. Atualmente, o
-Os seguintes conversores s„o suportados:
+O [Canonn Decryptor] √© uma ferramenta para desencriptar os mist√©rios do universo [Elite: Dangerous]. Atualmente, o
+Os seguintes conversores s√£o suportados:
 
 * [Atbash cipher]
-* [Caesar cipher] (Com cracking de rotaÁ„o autom·tica)
-* [Keyword cipher] (Com cracking de rotaÁ„o autom·tica)
+* [Caesar cipher] (Com cracking de rota√ß√£o autom√°tica)
+* [Keyword cipher] (Com cracking de rota√ß√£o autom√°tica)
 * [Morse code]
 * [Number-to-ASCII]
 * Reverse text
 * [Roman numerals]
-* [VigenËre cipher]
+* [Vigen√®re cipher]
 
 
 Build
 -----
 
-ApÛs a clonagem, o repositÛrio execute `npm install` para baixar as dependÍncias e compilar o projeto.
-Obviamente [Node.js] È necess·rio para isso.
+Ap√≥s a clonagem, o reposit√≥rio execute `npm install` para baixar as depend√™ncias e compilar o projeto.
+Obviamente [Node.js] √© necess√°rio para isso.
 
 Development
 -----------
@@ -55,8 +55,8 @@ Links
 
 * [Canonn Research Group](http://canonn.science/)
 
-
-[Canonn Decryptor]: https://kayahr.github.io/canonn-decryptor/
+[Canonn Decryptor] : https://kayahr.github.io/canonn-decryptor/
+[Cobra Wing Decifrador]: https://cobrawing.github.io/decifrador/
 [Elite: Dangerous]: https://www.elitedangerous.com/
 [Atbash cipher]: https://en.wikipedia.org/wiki/Atbash
 [Caesar cipher]: https://en.wikipedia.org/wiki/Caesar_cipher
@@ -64,7 +64,7 @@ Links
 [Morse code]: https://en.wikipedia.org/wiki/Morse_code
 [Number-to-ASCII]: https://en.wikipedia.org/wiki/ASCII
 [Roman numerals]: https://en.wikipedia.org/wiki/Roman_numerals
-[Vigen√®re cipher]: https://en.wikipedia.org/wiki/Vigen√®re_cipher
+[Vigen√®re cipher]: https://en.wikipedia.org/wiki/Vigen√É¬®re_cipher
 [Node.js]: https://nodejs.org/
 [SystemJS]: https://github.com/systemjs/systemjs
 [Visual Studio Code]: https://code.visualstudio.com/
