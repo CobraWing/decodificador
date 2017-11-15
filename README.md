@@ -1,4 +1,4 @@
-Decifrador Cobra Wing
+Decodificador Cobra Wing
 ================
 
 O [Canonn Decryptor] é uma ferramenta para descriptografar os mistérios do universo [Elite: Dangerous] Atualmente, o
