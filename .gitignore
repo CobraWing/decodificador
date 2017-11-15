@@ -6,6 +6,10 @@
 /.classpath
 /.factorypath
 /.jsdtscope
+/.vscode/
+/*.travis.yml
+/*.editorconfig
+/*.csslintrc
 
 # Temporary stuff
 /assets/fitness/input
