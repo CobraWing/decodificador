@@ -78,7 +78,7 @@ const groupReplace = new RegExp("(" + range + "+)", "gi");
 /**
  * Morse encoder.
  */
-@converter("morse-encoder", "morse", "Morse Encoder", "Encodes ASCII characters to morse code.")
+@converter("morse-encoder", "morse", "Morse Encoder", "Codifica caracteres ASCII para código Morse.")
 export class MorseEncoder extends Converter {
     /** The character to be used for morse dot. */
     @stringOption("dot", "Dot", { defaultValue: ".", allowEmpty: false, maxLength: 1 })
