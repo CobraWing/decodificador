@@ -1,13 +1,13 @@
 {
   "$schema": "http://json.schemastore.org/package",
-  "name": "canonn-decryptor",
+  "name": "cobrawing-decifrador",
   "version": "0.0.1",
-  "description": "Tool to decrypt the mysteries of the Elite Dangerous universe",
+  "description": "Ferramenta para desencriptar os mist�rios do universo Elite Dangerous",
   "keywords": [
     "Elite: Dangerous",
     "Elite",
-    "Canonn",
-    "Decryptor"
+    "CobraWing",
+    "Decifrador"
   ],
   "homepage": "https://github.com/kayahr/canonn-decryptor",
   "author": {
