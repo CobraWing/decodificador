@@ -10,7 +10,7 @@ import { numberOption } from "./options/NumberOption";
  * Number decoder.
  */
 @converter("number-decoder", "number", "Number Decoder",
-    "Decodes numbers into ASCII characters. Supports base 2 to 36 and value shifting.")
+    "Decodifica números em caracteres ASCII. Suporta base de 2 a 36 e troca de valor.")
 export class NumberDecoder extends Converter {
     /** Cached regular expression to match a number. */
     private numberRegExp: RegExp | null = null;
