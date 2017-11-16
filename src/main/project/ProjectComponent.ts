@@ -152,11 +152,11 @@ export abstract class ProjectComponent<T extends Project> {
     public async save(): Promise<void> {
         const project = this.state.getProject();
         if (!project.getName()) {
-            this.toastService.showToast("Project needs a name to save");
+            this.toastService.showToast("Projeto precisa de um nome para salvar");
             this.projectNameInput.nativeElement.focus();
         } else {
             await this.projectService.save(this.type, project);
-            this.toastService.showToast(`Project '${project.getName()}' has been saved`);
+            this.toastService.showToast(`Projeto '${project.getName()}' foi salvo`);
         }
     }
 }
