@@ -10,7 +10,7 @@ import { VigenereCipher } from "./VigenereCipher";
  * Vigènere decoder.
  */
 @converter("vigenere-decoder", "vigenere", "Vigènere Decoder",
-    "Decodes text encrypted with the Vigènere square.")
+    "Decodifica o texto criptografado com o quadrado Vigènere.")
 export class VigenereDecoder extends VigenereCipher {
     /** @inheritDoc */
     protected convertChar(char: number, key: number): number {
