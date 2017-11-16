@@ -1,8 +1,8 @@
 Decodificador Cobra Wing
 ================
 
-O [Canonn Decryptor] é uma ferramenta para descriptografar os mistérios do universo [Elite: Dangerous] Atualmente, o
-Os seguintes conversores são suportados:
+O [Canonn Decryptor] é uma ferramenta para descriptografar os mistérios do universo [Elite: Dangerous] Atualmente, os
+seguintes conversores são suportados:
 
 * [Atbash cipher]
 * [Caesar cipher] (Com quebra de rotação automática)
