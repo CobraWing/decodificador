@@ -10,7 +10,7 @@ import { KeywordCipher } from "./KeywordCipher";
  * Keyword encoder.
  */
 @converter("keyword-encoder", "keyword", "Keyword Encoder",
-    "Encodes text by encrypting it with keyword based alphabet substitution.")
+    "Codifica o texto criptografando-o com substituição do alfabeto com base em palavra-chave.")
 export class KeywordEncoder extends KeywordCipher {
     /** @inheritDoc */
     protected convertChar(char: string): string {
