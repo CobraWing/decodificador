@@ -14,41 +14,41 @@ Os seguintes conversores são suportados:
 * [Vigenère cipher]
 
 
-Build
+Montando
 -----
 
-After cloning the repository run `npm install` to download the dependencies and compile the project.
-Obviously [Node.js] is required for this.
+Após a clonagem, o repositório execute `npm install` para baixar as dependências e compilar o projeto.
+Obviamente [Node.js] é necessário para isso.
 
 
-Development
+Desenvolvimento
 -----------
 
-It is recommended to edit the project with [Visual Studio Code]. After running `npm install` once you can open
-the project root in the IDE and then press `Ctrl-Shift-B` to compile the project and enable compile-on-save. From then
-on TypeScript file changes are automatically compiled to JavaScript.
+É recomendado editar o projeto com [Visual Studio Code]. Depois de executar a `npm install` uma vez que você pode abrir
+a raiz do projeto no IDE e, em seguida, pressione `Ctrl-Shift-B` para compilar o projeto e ativar compilar-em-salvar. Desde então
+nas alterações do arquivo TypeScript são compiladas automaticamente para JavaScript.
 
-If you already have a local web server which can serve the project files then simply open the `index.html` file
-in your browser. This index file is meant to be used during development. It loads all JavaScript files through
-[SystemJS] so no packaging is needed.
+Se você já possui um servidor web local que pode servir os arquivos do projeto, basta abrir o arquivo `index.html`
+no seu navegador. Este arquivo de índice deve ser usado durante o desenvolvimento. Carga todos os arquivos JavaScript por meio de
+[SystemJS] então nenhuma embalagem é necessária.
 
-If you don't have a local web server then run `npm start` to serve the project on `http://localhost:8080/`
+Se você não possui um servidor web local, execute `npm start` para atender o projeto em `http://localhost:8080/`
 
 
-Testing
+Testando
 -------
 
-Run `npm test` to check the TypeScript and CSS files and to run the unit tests.
+Execute o `npm test` para verificar os arquivos TypeScript e CSS e para executar os testes de unidade.
 
-Within Visual Studio Code you can press `F5` to run the unit tests in the debugger.
+No Visual Studio Code, você pode pressionar `F5` para executar os testes de unidade no depurador.
 
 
-Deployment
+Desenvolvimento
 ----------
 
-For deployment run `npm run package` to bundle all JavaScript files into a single file and copy all files
-necessary for the deployment into the `dist` directory. Deploy the content of this directory to your web
-server.
+Para implantação, execute o pacote `npm run package` para agrupar todos os arquivos JavaScript em um único arquivo e copiar todos os arquivos
+necessário para a implantação no diretório `dist`. Implante o conteúdo deste diretório para sua web
+servidor.
 
 
 Links
