@@ -89,7 +89,7 @@ function decodeMorse(morse: string): string {
 /**
  * Morse decoder.
  */
-@converter("morse-decoder", "morse", "Morse Decoder", "Decodes morse code into ASCII characters.")
+@converter("morse-decoder", "morse", "Morse Decoder", "Decodifica o código Morse em caracteres ASCII.")
 export class MorseDecoder extends Converter {
     /** Cached regular expression for morse character matching. */
     private morseRegExp: RegExp | null = null;
