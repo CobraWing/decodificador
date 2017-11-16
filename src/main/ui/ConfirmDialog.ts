@@ -13,6 +13,6 @@ import { Dialog } from "./Dialog";
     templateUrl: "assets/ui/confirm-dialog.html"
 })
 export class ConfirmDialog extends Dialog<string> {
-    public title = "Confirm";
+    public title = "Confirmar";
     public body = "";
 }
