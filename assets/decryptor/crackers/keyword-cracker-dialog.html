@@ -2,8 +2,8 @@
   <h1>Keyword cracker</h1>
   <button class="close" (click)="close()"></button>
   <p>
-    The keyword cracker continuously tries to find the most valuable results and lists them below sorted by their
-    <em>englishness</em>-score. Click on a result to accept it.
+    O keyword cracker continua tentando encontrar os resultados mais valiosos e lista-os abaixo ordenados por sua
+    pontuação <em>inglesa</em>. Clique em um resultado para aceitá-lo.
   </p>
   <div class="controls">
     <span class="progress" *ngIf="running">
@@ -13,9 +13,9 @@
       Cracking stopped
     </span>
     <nav>
-      <button *ngIf="running" class="stop" (click)="stop()">Stop</button>
-      <button *ngIf="!running" class="clear" (click)="clear()">Clear</button>
-      <button *ngIf="!running" class="start" (click)="start()">Start</button>
+      <button *ngIf="running" class="stop" (click)="stop()">Parar</button>
+      <button *ngIf="!running" class="clear" (click)="clear()">Limpar</button>
+      <button *ngIf="!running" class="start" (click)="start()">Começar</button>
     </nav>
   </div>
   <div class="results">
@@ -29,5 +29,5 @@
       No results recorded so far.
     </p>
   </div>
-  <button class="cancel" (click)="close()">Cancel</button>
+  <button class="cancel" (click)="close()">Cancelar</button>
 </div>
