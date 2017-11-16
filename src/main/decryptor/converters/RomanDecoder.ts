@@ -28,7 +28,7 @@ function decodeRoman(roman: string): number {
 /**
  * Roman number decoder.
  */
-@converter("roman-decoder", "roman", "Roman Decoder", "Decodes roman numerals into decimal numbers.")
+@converter("roman-decoder", "roman", "Roman Decoder", "Decodifica numerais romanos em números decimais.")
 export class RomanDecoder extends Converter {
     /** @inheritDoc */
     public convert(input: string): string {
