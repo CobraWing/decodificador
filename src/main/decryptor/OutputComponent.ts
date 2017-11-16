@@ -77,7 +77,7 @@ export class OutputComponent {
      * Removes this decryptor output. User has to confirm it first.
      */
     public async remove(): Promise<void> {
-        if (await this.dialogService.confirm("Are you sure you want to delete this output?")) {
+        if (await this.dialogService.confirm("Tem certeza de que deseja excluir esta saída?")) {
             this.output.getParent().addOutputs(this.output.getOutputs());
             this.output.remove();
         }
