@@ -44,9 +44,9 @@ export class LoadProjectDialog extends Dialog<string> {
      * @param projectName  The name of the project to delete.
      */
     public async delete(projectName: string): Promise<void> {
-        if (await this.dialogService.confirm(`Area you sure you want to delete '${projectName}'?`)) {
+        if (await this.dialogService.confirm(`Tem certeza de que deseja excluir '${projectName}'?`)) {
             this.projectService.deleteProject(this.projectType, projectName);
-            this.toastService.showToast(`Project '${projectName}' has been deleted`);
+            this.toastService.showToast(`Projeto '${projectName}' foi deletado`);
         }
     }
 }
