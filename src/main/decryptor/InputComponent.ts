@@ -71,7 +71,7 @@ export class InputComponent {
      * Removes this input after the user has confirmed it.
      */
     public async remove(): Promise<void> {
-        if (await this.dialogService.confirm("Are you sure you want to delete this input?")) {
+        if (await this.dialogService.confirm("Tem certeza de que deseja excluir esta entrada?")) {
             this.state.getProject().removeInput(this.input);
         }
     }
